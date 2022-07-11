@@ -1,0 +1,28 @@
+.user-container {
+    margin: auto;
+    width: 80%;
+}
+
+.user-headings > div {
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.user-headings,
+.userList {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    place-items: center;
+    padding: 1rem;
+    box-shadow: 1px 1px 6px black;
+}
+.userList:nth-child(odd) {
+    background-color: #efefef;
+}
+.userList:hover {
+    color: #ffffff;
+    background-color: grey;
+    font-style: oblique;
+}

@@ -1,0 +1,23 @@
+.user-viewList {
+    padding: 2rem;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 8px grey;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.user-viewItem {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 15px;
+    width: 100%;
+}
